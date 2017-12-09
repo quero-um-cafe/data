@@ -10,9 +10,12 @@ arquivo no formato CSV, localizado em `data/results.csv`.
 
 ### Estrutura
 
-| # | Nome        | Tipo     | Descrição                                    |
-| - | ----------- | -------- | -------------------------------------------- |
-| 0 | Data e Hora | `string` | Data e hora no formato `DD/MM/AAAA HH:MM:SS` |
+| # | Nome         | Descrição                                                 |
+| - | ------------ | --------------------------------------------------------- |
+| 0 | Data e Hora  | Data e hora no formato `DD/MM/AAAA HH:MM:SS`              |
+| 1 | Gênero       | Gênero, enumerável conforme `gender`                      |
+| 2 | Idade        | Intervalo de idade, enumerável conforme `age`             |
+| 3 | Estado Civil | Situação junto à sociedade, enumerável conforme `marital` |
 
 ## Licença
 
