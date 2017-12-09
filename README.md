@@ -5,8 +5,8 @@ Dados Resultantes de Pesquisa sobre Consumo de Café
 ## Dados
 
 Os dados estão disponíveis em formato cru e não tratados, conforme respostas
-preenchidas pelos entrevistados em formulário específico, armazenados em arquivo
-no formato CSV, localizado em `data/results.csv`.
+preenchidas pelos entrevistados em formulário específico, e armazenados em
+arquivo no formato CSV, localizado em `data/results.csv`.
 
 ## Licença
 
