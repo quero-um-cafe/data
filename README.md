@@ -10,12 +10,15 @@ arquivo no formato CSV, localizado em `data/results.csv`.
 
 ### Estrutura
 
-| # | Nome         | Descrição                                                 |
-| - | ------------ | --------------------------------------------------------- |
-| 0 | Data e Hora  | Data e hora no formato `DD/MM/AAAA HH:MM:SS`              |
-| 1 | Gênero       | Gênero, enumerável conforme `gender`                      |
-| 2 | Idade        | Intervalo de idade, enumerável conforme `age`             |
-| 3 | Estado Civil | Situação junto à sociedade, enumerável conforme `marital` |
+| # | Nome               | Descrição                                                 |
+| - | ------------------ | --------------------------------------------------------- |
+| 0 | Data e Hora        | Data e hora no formato `DD/MM/AAAA HH:MM:SS`              |
+| 1 | Gênero             | Gênero; enumerável em `Masculino` ou `Feminino`           |
+| 2 | Idade              | Intervalo de idade, enumerável conforme `age`             |
+| 3 | Estado Civil       | Situação junto à sociedade, enumerável conforme `marital` |
+| 4 | Nível de Instrução | Nível de estudos, enumerável conforme `instruction`       |
+| 5 | Área de Atuação    | Área de ofício; domínio de ocupação                       |
+| 6 | Consumo Diário     | Consome café diariamente? _Booleano_ para `Sim` ou `Não`  |
 
 ## Licença
 
